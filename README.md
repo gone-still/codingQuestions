@@ -1,2 +1,2 @@
 # codingQuestions
-Some BS pprograming questions (and their solutions) Tech Companies like to do.
+Some BS ppograming questions (and their solutions) Tech Companies like to do.
