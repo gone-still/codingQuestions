@@ -1,6 +1,6 @@
 # File        :   minMaxSum.py
 # Version     :   1.0.0
-# Description :   Solution to the fizzbuzz problem
+# Description :   Solution to the minMaxSum problem
 #                
 # Date:       :   Feb 01, 2023
 # Author      :   Mr. X
