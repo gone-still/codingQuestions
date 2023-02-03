@@ -48,9 +48,9 @@ for i in range(stringLength):
     pastChar = currentChar
     charCounter += 1
 
-    # String end data dump:
-    if (i == stringLength - 1):
-        compressedString = compressedString + "("+str(charCounter)+", "+pastChar+")"
+
+# String end data dump:
+compressedString = compressedString + "("+str(charCounter)+", "+pastChar+")"
 
 # Done
 print(compressedString)
