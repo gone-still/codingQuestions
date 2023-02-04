@@ -28,12 +28,13 @@ def lonelyinteger(a):
     for i in range(listSize):
         # Get current number:
         currentNumber = a[i]
-        # Set found flag:
-        foundNumber = True
 
         # Check if the current number has already
         # been processed:
         if currentNumber != -1:
+            
+            # Set found flag:
+            foundNumber = True
 
             # Loop through the rest of the list:
             for j in range(i + 1, listSize):
