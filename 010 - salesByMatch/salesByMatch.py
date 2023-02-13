@@ -61,7 +61,8 @@ def sockMerchant(n, arr):
 
     # Loop through the dictionary and print the info:
     for i, _ in socksDic.items():
-        # GEt dictionary data:
+        
+        # Get dictionary data:
         currentItem = socksDic[i]
         itemCount = currentItem[0]
         itemPairs = currentItem[1]
