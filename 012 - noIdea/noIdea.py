@@ -38,11 +38,11 @@ for i in range(n):
     currentKey = r[i]
     # Check in A:
     if currentKey in aDict:
-        totalhappiness   +=1
+        totalhappiness +=1
     else:
         # Check in B:
         if currentKey in bDict:
-            totalhappiness  -= 1
+            totalhappiness -= 1
 
 # Done:
 print(totalhappiness )
