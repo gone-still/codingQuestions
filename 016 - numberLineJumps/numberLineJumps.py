@@ -1,8 +1,8 @@
 # File        :   numberLineJumps.py
-# Version     :   1.0.0
+# Version     :   1.0.1
 # Description :   Solution to the numberLineJumps problem
 #                
-# Date:       :   Feb 17, 2023
+# Date:       :   Feb 19, 2023
 # Author      :   Mr. X
 # License     :   Creative Commons CC0
 
@@ -36,13 +36,13 @@ def kangaroo(x1, v1, x2, v2):
     
     # Check denominator for possible division
     # by zero:
-    num = (x2 - x1)
     den = (v1 - v2)
     
     # Check denominator:
     if (den > 0):   
         # Compute total of jumps: 
-        totalJumps = (x2 - x1)/(v1 - v2)  
+        num = (x2 - x1)
+        totalJumps = num / den
         
         # Check if the total jumps are integer jumps:      
         totalJumpsDiff = totalJumps - int(totalJumps)
