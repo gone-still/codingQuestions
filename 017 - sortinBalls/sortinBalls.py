@@ -26,7 +26,7 @@
 
 # The "tip" to note is that at least one container must be able to hold
 # the largest amount of balls of one type. If this test fails, the sorting becomes
-# impossible
+# impossible.
 
 
 def organizingContainers(container):
