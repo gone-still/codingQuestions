@@ -46,7 +46,7 @@ for i in range(len(dictKeys)-1):
     aCount = countDict[a]
     bCount = countDict[b]
     
-    # Compute subarray length fo
+    # Compute subarray length for
     # this pair:
     l = aCount + bCount
     
