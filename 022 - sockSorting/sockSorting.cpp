@@ -24,7 +24,7 @@ int main()
 {
     // Set vector of sock colors:
     std::vector<int> sockColors = { 1, 2, 1, 2, 1, 3, 2, 3 };
-    // Internal variables:
+    // Counter variables:
     int sockPairs = 0; int sockSingles = 0;
 
     // Loop through the vector and pick a target item:
