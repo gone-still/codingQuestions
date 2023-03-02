@@ -43,7 +43,7 @@ int main()
                 int targetColor = sockColors[j]; //get target
                 std::cout<<"targetColor: "<<targetColor<<std::endl;
                 
-                // Make sure to process to process different items:
+                // Make sure to process different items:
                 if ( j != i ){
                     // Get unprocessed colors:
                     if ( targetColor != -1 ){
