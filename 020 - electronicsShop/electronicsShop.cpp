@@ -84,10 +84,10 @@ int main()
     std::vector<int> drives = {5, 8, 12};
 
     // Compute result:
-    int maxMoneSpent = getMoneySpent(keyboards, drives, b);
+    int maxMoneySpent = getMoneySpent(keyboards, drives, b);
 
     // Print result:
-    std::cout<<maxMoneSpent<<std::endl;
+    std::cout<<maxMoneySpent<<std::endl;
 
     return 0;
 }
