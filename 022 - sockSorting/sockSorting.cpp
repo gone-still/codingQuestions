@@ -9,7 +9,6 @@
 // Given a vector of sock colors, determine how many pairs of one color are and
 // how many single socks of one color exist. Do not use dictionaries.
 
-
 // Example:
 // sockColors = [ 1, 2, 1, 2, 1, 3, 2, 3 ]
 // There are 3 pairs of socks and 2 singles.
