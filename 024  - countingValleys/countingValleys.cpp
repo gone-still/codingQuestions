@@ -74,10 +74,13 @@ int main()
             std::cout<<"codeDifference: "<<codeDifference<<std::endl;
 
             // Was it a valley?
-            if ( codeDifference < 0 ){ 	// Cross came from negative number
+            // Cross came from negative number
+            if ( codeDifference < 0 ){
                 std::cout<<"Found valley"<<std::endl;
                 totalValleys++;
-            }else{ 					 	// Cross came from positive number:
+            // Was it a mountain?
+            // Cross came from positive number:
+            }else{
                 std::cout<<"Found mountain"<<std::endl;
                 totalMountains++;
             }
