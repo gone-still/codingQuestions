@@ -56,7 +56,7 @@ def FindIntersection(strArr):
             charBuff = charBuff + c
         # Comma, dump the buffer into dict:
         else:
-        	# Check dict entry:
+            # Check dict entry:
             if charBuff in countsDict:
             	# Construct the out string:
                 outString = outString + charBuff + ","
