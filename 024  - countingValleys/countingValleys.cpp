@@ -50,10 +50,9 @@ int main()
     // Loop thru the path, getting each string character
     // at a time:
     for (it = hikePath.begin(); it != hikePath.end(); it++){
-    	
+
     	// Get current char from string:
         char currentChar = *it;
-
         // Check if 'U' or 'D':
         if ( currentChar == 'D' ){
             std::cout<<"Found downhill"<<std::endl;
