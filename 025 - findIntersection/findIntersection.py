@@ -40,7 +40,7 @@ def FindIntersection(strArr):
             charBuff = charBuff + c
         # Comma, dump the buffer into dict:
         else:
-        	# Check dict entry:
+            # Check dict entry:
             if charBuff not in countsDict:
             	# Mark it:
                 countsDict[charBuff] = 1
