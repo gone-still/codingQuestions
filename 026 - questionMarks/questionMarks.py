@@ -34,7 +34,7 @@ def QuestionsMarks(strParam):
             # Convert the char to int:
             c = int(c)
 
-            # Got numebr flag:
+            # Got numeber flag:
             gotNumber = not(gotNumber)
 
             # End of target flag switch:
