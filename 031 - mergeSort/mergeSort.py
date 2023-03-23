@@ -77,7 +77,7 @@ def mergeSort(array):
             r += 1
 
     # Recursive call to the same function
-    # until right and lefth have only one
+    # until right and left have only one
     # item each:
     mergeSort(leftArray)
     mergeSort(rightArray)
