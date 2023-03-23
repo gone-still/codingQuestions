@@ -1,7 +1,7 @@
 # File        :   pickingNumbers.py
 # Version     :   1.5.0
 # Description :   Solution to the pickingNumbers problem
-#                
+               
 # Date:       :   Feb 24, 2023
 # Author      :   Mr. X
 # License     :   Creative Commons CC0
