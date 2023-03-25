@@ -47,8 +47,8 @@ def stringMatching(haystack, needle):
 
 
 # Test case:
-haystack = "bigbaddog"
-needle = "dog"
+haystack = "crazyFrog666"
+needle = "Frog"
 
 outIndex = stringMatching(haystack, needle)
 print(outIndex)
