@@ -20,7 +20,7 @@
 
 def computeMedian(nums1, nums2):
 
-    # IndimergedArrayidual lengths:
+    # Individual lengths:
     length1 = len(nums1)
     length2 = len(nums2)
 
@@ -68,7 +68,7 @@ def computeMedian(nums1, nums2):
     # Get center index:
     middleIndex = totalLength // 2
     if (totalLength % 2 == 0):
-        # EmergedArrayen:
+        # Even:
         median = (mergedArray[middleIndex - 1] + mergedArray[middleIndex]) / 2.0
     else:
         # Odd:
