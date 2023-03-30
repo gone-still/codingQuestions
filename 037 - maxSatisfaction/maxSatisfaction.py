@@ -27,6 +27,8 @@
 # coefficient will be equal to (-1*1 + 0*2 + 5*3 = 14).
 # Each dish is prepared in one unit of time.
 
+# https://www.youtube.com/watch?v=IhHd0ArvRy4
+
 def maxSatisfaction(inputList):
     # Sort the list:
     inputList.sort()
@@ -56,6 +58,6 @@ def maxSatisfaction(inputList):
 
 # Set the input array:
 inputArray = [-10, -7, -2, -1, 0, 5, 10]
-# Get satisfaction...
+# Ahhh, satisfaction...
 s = maxSatisfaction(inputArray)
 print(s)
