@@ -1,8 +1,8 @@
 # File        :   binarySearch.py
-# Version     :   1.0.0
+# Version     :   1.1.0
 # Description :   Iterative implementation of binary search
 #
-# Date:       :   Mar 22, 2023
+# Date:       :   Mar 31, 2023
 # Author      :   Mr. X
 # License     :   Creative Commons CC0
 
@@ -37,24 +37,23 @@ def binarySearch(inputArray, target):
         if (target < middleItem):
             # Compute new indices:
             endIndex = middleIndex - 1
-            currentIndex = endIndex
         else:
             # Check if target is in right:
             if (target > middleItem):
                 # Compute new indices:
                 startIndex = middleIndex + 1
-                currentIndex = startIndex
             else:
                 # Got target:
                 index = middleIndex
                 searchIndex = False
 
         # Target not found stop condition:
-        if (pastIndex == currentIndex):
+        if (pastIndex == middleIndex):
+            print("Not Found")
             searchIndex = False
 
         # Current search index is now past index:
-        pastIndex = currentIndex
+        pastIndex = middleIndex
 
         # Increase iterations counter:
         iterationsCounter += 1
