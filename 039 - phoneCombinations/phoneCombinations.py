@@ -28,7 +28,6 @@
 # Output: ["a","b","c"]
 
 def breadthSearch(searchDepth, currentLevel, stringBuff, charDict, digits, combinations):
-
     # Reach end of the branch:
     if (currentLevel == searchDepth):
 
@@ -38,7 +37,6 @@ def breadthSearch(searchDepth, currentLevel, stringBuff, charDict, digits, combi
 
     # Keep traversing the tree's nodes:
     else:
-
         # Get current set of char for this level
         # That is, the "breadth" of the code
         currentChar = digits[currentLevel]
