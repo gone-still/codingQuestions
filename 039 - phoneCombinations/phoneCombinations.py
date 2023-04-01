@@ -49,8 +49,8 @@ def breadthSearch(searchDepth, currentLevel, stringBuff, charDict, digits, combi
 
 
 def letterCombinations(digits):
-	# If digits empty, return empty
-	# list:
+    # If digits empty, return empty
+    # list:
     if digits == "":
         return []
 
