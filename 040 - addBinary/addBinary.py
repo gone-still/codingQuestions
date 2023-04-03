@@ -82,8 +82,11 @@ def addBinary(a, b):
 
     # Check carry out:
     if c[0] == "1":
+        # if carry set, concatenate an extra "1" at the MSB:
         stringResult = "1" + stringResult
+    # Check if leading zeros should be removed:
     elif sliceIndex != -1:
+        # Slice out them zeros:
         stringResult = stringResult[sliceIndex + 1:aLength + 1]
 
     # Check all zeros:
