@@ -6,9 +6,10 @@
 # Author      :   Mr. X
 # License     :   Creative Commons CC0
 
-# Write a solution that that removes a row if one of the cells contain a NULL, such as row with the name Jenny. 
-# The table is given in CSV format.Every two consecutive cells in each row are separated by a single comma ',' 
-# symbol. Every two consecutive rows are separated by a new-line '\n' symbol
+# Write a solution that that removes a row of a table if one of the cells contain a NULL, such as 
+# row with the name Jenny. The table is given in CSV format.Every two consecutive cells in each row 
+# are separated by a single comma ',' symbol. Every two consecutive rows are separated by a new-line 
+# '\n' symbol
 
 # Example:
 # Given S = "id,name,age,score\n1,Jenny,NULL,14\n17,Daryll,31,11", your function should return 
