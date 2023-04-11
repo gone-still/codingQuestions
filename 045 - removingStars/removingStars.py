@@ -35,7 +35,7 @@
 
  
 def removeStars(s):
-	# Output string and characters stack:
+    # Output string and character stack:
     outString = ""
     charStack = []
 
