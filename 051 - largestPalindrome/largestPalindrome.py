@@ -21,7 +21,7 @@
 
 # Note: One of the hardest yet. My solution is incomplete and 
 # currently passes 98% (138/141) of the test cases. I've attached
-# a case that is wrong. I'll get back to this problem sone day...
+# a case that is wrong. I'll get back to this problem some day...
 
 # Looks for a substring in a string,
 # Returns if found along the matching index
