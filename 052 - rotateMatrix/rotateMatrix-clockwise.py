@@ -1,4 +1,4 @@
-# File        :   rotateMatrix.py
+# File        :   rotateMatrix-clockwise.py
 # Version     :   1.0.0
 # Description :   Solution to the rotateMatrix problem
 #                
