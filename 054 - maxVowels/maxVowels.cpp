@@ -1,6 +1,6 @@
 // File        :   maxVowels.cpp
 // Version     :   1.0.0
-// Description :   Solution to the electronicsShop problem
+// Description :   Solution to the maxVowels problem
 
 // Date:       :   May 22, 2023
 // Author      :   Mr. X
