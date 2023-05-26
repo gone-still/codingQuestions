@@ -16,7 +16,7 @@ numbersList = [1, 2, 3, 4]
 # Get list size:
 listSize = len(numbersList)
 # Sort from smallest to largest:
-sortedList = numbersList.sort()
+numbersList.sort()
 
 # Get middle (floored)
 middle = listSize // 2
