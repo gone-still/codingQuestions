@@ -30,7 +30,7 @@ import sys
 def miniMaxSum(arr):
     
     # Order list from smallest to larger:
-    orderedList = arr.sort()
+    arr.sort()
     
     # Set cum sums:
     minSum = 0
