@@ -45,7 +45,7 @@ int minFlips(int a, int b, int c){
                 maxCount++;
             }
         }else{
-            if (aBit == 0 && bBit ==0){
+            if (aBit == 0 && bBit == 0){
                 maxCount++;
             }
         }
