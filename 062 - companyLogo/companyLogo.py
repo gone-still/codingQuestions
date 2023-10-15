@@ -125,4 +125,4 @@ def companyLogo(s):
 # Run the test case:
 if __name__ == '__main__':
     s = "fuckHackerRank"
-    companyLogo(s)
+    companyLogo(s.lower())
