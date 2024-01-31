@@ -1,8 +1,8 @@
 # File        :   filterStringRows.py
-# Version     :   1.0.0
+# Version     :   1.0.1
 # Description :   Solution to the filterStringRows problem
 #                
-# Date:       :   Apr 10, 2023
+# Date:       :   Jan 30, 2024
 # Author      :   Mr. X
 # License     :   Creative Commons CC0
 
@@ -15,6 +15,7 @@
 # Given S = "id,name,age,score\n1,Jenny,NULL,14\n17,Daryll,31,11", your function should return 
 # "id,name,age,score\n17,Betty,28,11"
 
+# Original Solution:
 def filterRows(inputString):
     #  The filtered strings are stored here:
     filtered = []
@@ -43,9 +44,43 @@ def filterRows(inputString):
     return outString
 
 
+# New Solution:
+def filterRowsNew(inputString: str) -> str:
+    """Receives a string representing lines with "\n" and 
+     filters lines that have "NULL" in any cell"""
+
+    # Set outstring:
+    outString = ""
+
+    # Break strings ending with "\n" into lines:
+    lines = inputString.split("\n")
+
+    # For each line...
+    for line in lines:
+        # Split the string into individual words:
+        cells = line.split(",")
+
+        # Search for keyword in list of words:
+        if "NULL" not in cells:
+            # If not found, append original string to
+            # outstring. Append end of line char:
+            outString += line + "\n"
+
+    # Remove end of line char last appended:
+    outString = outString[:-1]
+
+    return outString
+
+
 # Test case entry:
-inputString = "id,name,age,score\n1,Jack,NULL,12\n17,Betty,28,11"
+inputString = "id,name,age,score\n1,Jack,NULL,12\n17,Betty,28,11\n17,Daryll,31,11\nNULL,Eric,69,420"
 # Process the input:
 filteredString = filterRows(inputString)
+# Print result:
+print(filteredString)
+
+# Test new solution:
+# Process the input:
+filteredString = filterRowsNew(inputString)
 # Print result:
 print(filteredString)
